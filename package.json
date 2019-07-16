@@ -1,0 +1,14 @@
+{
+  "name": "word-guess",
+  "version": "1.0.0",
+  "description": "This program is a Constructor word guess game using Baseball's more popular teams.  It utilizes inquirer prompt npm packages.  The letter.js contains a constructor, 'Letter', and displays an underscore where the letter has not yet been guessed.  Once a correct letter is guessed it is updated on the console.  \r The word.js also contains a constructor, 'Word', and depends on the 'Letter' constructor which is used to create an object representing the word the user is trying to guess.  \r The game will keep track of letters already guessed, ensuring the user can not guess the same letter more than once.  When the user guesses the correct team a win will be awarded.  If the user does not guess the correct team in the allowable amount of guesses a loss will be recorded and the name of the correct team will be printed to the console.  It will also keep track of wins/losses, while inquiring whether or not the user would like to play again.  Go Giants!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernard_Dzekashu",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
+}
